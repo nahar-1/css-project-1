@@ -1,0 +1,24 @@
+#lorem1{
+    border: 10px dashed rgb(20, 56, 216);
+    outline-width: 5px;
+    outline-color: blueviolet;
+    outline-style: groove;
+}
+#lorem2{
+    color: rgb(151, 88, 10);
+    background-color: aquamarine;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: inherit;
+    text-align: justify;
+    direction: rtl;
+}
+#lorem3{
+    text-decoration: underline blueviolet solid 5px;
+    text-transform: uppercase;
+    text-indent: 20px;
+    letter-spacing: 6px;
+    line-height: 1.7;
+    word-spacing: 30px;
+    text-shadow: 2px 2px 4px #993333;
+}

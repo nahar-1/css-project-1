@@ -1,0 +1,30 @@
+.formdesign{
+    box-sizing: border-box;
+}
+.formdesign{
+    background-color:aliceblue;
+    padding: 30px;
+    overflow: hidden;
+   
+}
+.formdesign input, select{
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding:10px
+
+
+}
+.formdesign textarea, input:focus{
+    outline: 1px solid #d6c313
+
+}
+.formdesign textarea{
+    height: 200px; width: 100%; border-radius: 3px;
+    padding: 12px; resize: vertical;
+}
+input[type=button]:hover{
+    background-color: #d6c313;
+
+}

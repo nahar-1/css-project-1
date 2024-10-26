@@ -1,0 +1,27 @@
+#Nahar{
+    background-color: blueviolet;
+}
+.Nahar{
+    color: rgb(26, 96, 153);
+}
+caption, th, tr{
+    color: rgb(7, 36, 61);
+  
+}
+body{
+    background:  no-repeat right top fixed;}
+
+
+#Sh{
+    color: rgb(17, 226, 70);
+    background-color: black;
+  
+}
+h1{
+    color: rgb(52, 3, 117);
+    background: red;
+    border: 2px solid rgb(8, 4, 243);
+
+}
+
+

@@ -1,0 +1,136 @@
+/*h1:nth-child(1){
+    text-shadow: 2px 2px ;
+}
+h1:nth-child(2){
+    text-shadow: -2px -2px;
+}
+h1:nth-child(3){
+    text-shadow: 2px 2px 5px rgb(23, 131, 202);
+}*/
+/*.card{
+   width: 250px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+}
+.header{
+    background-color: rgb(31, 199, 148);
+    color: white; padding: 10px; font-size: 40px;
+}
+.text{
+    padding: 10px; font-size: 20px;
+}*/
+/*#transition{
+    height: 100px; width: 100px;
+    background-color: aqua;
+    transition: width 2s ease 1s;
+}
+#transition:hover{
+    height: 500px; width: 500px;
+}
+div{height: 100px; width: 100px; background-color: blueviolet; margin: 10px; transition: width 2s height 4s;}
+#div1{
+    transition-timing-function: linear;
+}
+#div2{transition-timing-function: ease;}
+#div3{transition-timing-function: ease-in;}
+#div4{transition-timing-function: ease-in-out;}
+#div5{transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);}
+div:hover{rotate: (50deg); width: 500px;}
+#animation{
+    width: 200px; height: 200px; background-color: aqua;
+    animation-name:demo; animation-duration: 10s;position: relative;
+}
+@keyframes demo{
+    10%{left: 200px; top:20px; background-color: rgb(15, 2, 27);}
+    35%{left: 20px; bottom:200px; background-color: rgb(158, 4, 30);}
+    55%{left: 200px; bottom:200px; background-color: rgb(4, 158, 25);}
+    75%{left: 200px; top:200px; background-color: rgb(4, 158, 25);}
+    100%{right: 200px; top:200px; background-color: rgb(4, 158, 25);}
+}
+    
+div{
+    animation-iteration-count: infinite;
+}
+img{
+    
+   -webkit-mask-image: url(img9logo.png);
+   mask-image: url(img9logo.png);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+
+}
+button{
+    padding: 15px 32px;
+    background-color: lime;
+    border: none;
+    color: beige;
+    font-size: larger;
+}
+.main{text-align: center;}
+.page{
+    display: inline-block;
+}
+.page a{
+    text-decoration: none;
+    color: rgb(0, 0, 0); padding: 8px 16px; 
+    background-color: rgb(236, 232, 232); transition:1s ;
+    border-radius: 4px; border: 1px solid rgb(123, 226, 102);
+}
+.page a.active{
+    background-color: blueviolet;color: #ffffff;
+}
+.page a:hover:not(.active){
+    background-color: rgb(133, 119, 119);
+}
+.news p{
+    column-count: 3;
+    column-rule: 2px solid #a59e9e;
+}
+
+    :root {
+        --blue: #122f4d;
+        --white: #b93838;
+      }
+
+.var{
+    height: 300px; width: 300px;
+   background-color: var(--blue);
+}
+.main{
+    text-align: center ;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px dotted green;
+}
+.tooltip .tooltiptext{
+     visibility:hidden; width: 120px;
+    background-color: rgb(129, 21, 106);
+    color: white; text-align: center; border-radius: 6px;
+    padding: 5px 5px ; position: absolute; z-index: 1;
+}
+.tooltip:hover .tooltiptext{visibility: visible;}*/
+.container{ height: 500px;
+display: flex;flex-direction: column;
+justify-content:flex-end; align-items:flex-end;
+
+}
+.container div{
+    width: 120px; height: 120px;
+    border-radius: 3px;
+    text-align: center;font-size: 7rem;
+}
+
+.item1{
+    background-color: aqua;
+}
+.item2{
+    background-color: rgb(123, 255, 0);
+}
+.item3{
+    background-color: rgb(204, 0, 255);
+}
+.item4{
+    background-color: rgb(209, 11, 77);
+}
